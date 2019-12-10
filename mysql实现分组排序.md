@@ -58,7 +58,8 @@ where a.class_name = 'classOne'
 order by a.point asc;
 ```
 返回结果如下：
-a.id | a.class_name| a.stu_id | a.point | b.id | b.class_name| b.stu_id | b.point 
+
+a.id | a.class_name| a.stu_id | a.point | b.id | b.class_name| b.stu_id | b.point
 --- | --- |--- | ---|--- | ---|--- | ---
 3	|classOne	|1003	|59	|2	|classOne	|1002	|98
 3	|classOne	|1003	|59	|4	|classOne	|1004	|76
@@ -96,6 +97,7 @@ limit 100;
 
 ```
 返回结果：
+
 id | class_name | stu_id | point
 --- | --- | ---| ---
 5	|classOne	|1005	|98
